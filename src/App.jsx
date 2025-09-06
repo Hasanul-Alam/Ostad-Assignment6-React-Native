@@ -128,15 +128,15 @@ export default function ProfileCardApp() {
         <Title>Profile Card App</Title>
         <ProfileCard isLarge={isLarge}>
           <ProfileImage
-            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face"
+            src="/src/assets/self-image.jpg"
             alt="Profile Picture"
             isLarge={isLarge}
           />
-          <ProfileName isLarge={isLarge}>John Doe</ProfileName>
+          <ProfileName isLarge={isLarge}>Hasanul Alam</ProfileName>
           <ProfileBio isLarge={isLarge}>
-            Full-stack developer passionate about creating beautiful and
-            functional web applications. I love working with React, Node.js, and
-            modern web technologies to build amazing user experiences.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae
+            veniam corporis minus porro dolor, dicta repellendus atque itaque
+            harum deleniti?z
           </ProfileBio>
         </ProfileCard>
         <ToggleButton onClick={toggleSize}>
